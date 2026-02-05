@@ -2,13 +2,15 @@
   "keys": [
     {
       "kty": "RSA",
-      "use": "sig",
       "alg": "RS384",
-      "kid": "ecw-bulk-20251222",
       "n": "u4TOHG76i4Pj_C-TOiBWP-ifv4_OFDURMLaQVZ1xSKeEjBUKihWsvZUuAEHDz2Nguw1GwZTj8gDZ1Ow_xlRg_5VTR4mS0OPBn-20xWyIKO25DoIkN1t_tPcJjWNpZ75GLFVI-sq1gGN6Tbz5oo5hzJmw2UsPhGynib5J9L_do5RhTavKC06QiU9f4zZic2bQOqOYbIebZWgPJ1NOOCWRuNnTOl7wWUVS4-sPLA4gMzBNlg1RH1u6_QnkeK9-woPotfz5BOj-kXvV1R6M0I8_iqwqLYSE2qlds7Z9U4ZjHIzpggWTIj-hnwLob41-k8AE_rcgcYClU4a-LcrBWIUgfw",
       "e": "AQAB",
-      "key_ops": ["verify"],
-      "ext": true
+      "use": "sig",
+      "key_ops": [
+        "verify"
+      ],
+      "ext": true,
+      "kid": "ecw-bulk-20251222"
     }
   ]
 }
